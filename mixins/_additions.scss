@@ -1,0 +1,38 @@
+@mixin background-size($value) {
+  -webkit-background-size: $value;
+  -moz-background-size: $value;
+  -o-background-size: $value;
+  background-size: $value;
+}
+
+@mixin inline-block() {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+@mixin background-color($color, $transparency: 1) {
+  @if $transparency != 1 {
+    background-color: rgba($color, $transparency);
+  } @else {
+    background-color: $color;
+  }
+}
+
+@mixin font-smoothing($value) {
+  -webkit-font-smoothing: $value;
+  -moz-font-smoothing: $value;
+  font-smoothing: $value;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+@mixin border-radius($value) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+}
+
+@mixin opacity($value) {
+  opacity: $value;
+  filter: alpha(opacity=($value*100));
+}

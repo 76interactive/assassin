@@ -1,0 +1,41 @@
+@mixin grid-breakpoint($breakpoint, $prefix) {
+  @include media($breakpoint) {
+    @include b(grid) {
+      @include e(col) {
+        @for $i from 1 through $grid-columns {
+          @include m(#{$prefix}#{$i}) {
+            @include span-columns($i);
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin grid-system() {
+  @include b(grid) {
+    @include e(container) {
+      @include outer-container();
+    }
+
+    @include e(row) {
+      @include row;
+    }
+
+    @include e(col) {
+      @for $i from 1 through $grid-columns {
+        @include m(#{$i}) {
+          @include span-columns($i);
+        }
+      }
+    }
+
+    @include e(shift) {
+      @for $i from 1 through ($grid-columns - 1) {
+        @include m(#{$i}) {
+          @include shift($i);
+        }
+      }
+    }
+  }
+}
