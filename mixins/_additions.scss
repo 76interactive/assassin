@@ -36,3 +36,9 @@
   opacity: $value;
   filter: alpha(opacity=($value*100));
 }
+
+@mixin box-shadow($value) {
+  -webkit-box-shadow: $value;
+  -moz-box-shadow: $value;
+  box-shadow: $value;
+}
