@@ -2,7 +2,7 @@
 
 ***Note: a more extensive documentation will land soon***
 
-*Version: 1.0.0* 
+*Version: 1.0.1* 
 
 Assassin is an opinionated BEM SASS bundle to kickstart the creation of advanced, well-structured SASS sites. As used within [76interactive](http://76interactive.com).
 
