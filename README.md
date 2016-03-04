@@ -29,7 +29,7 @@ $ git submodule add https://github.com/76interactive/assassin.git
 ```
 
 ## Usage
-Import the bundle to use all of lungo. (given that you've either installed lungo using git or that you've install lungo  within a directory called: "lungo")
+Import the bundle to use all of assassin. (given that you've either installed assassin using git or that you've install assassin  within a directory called: "assassin")
 
 ```
 @import "assassin/helpers";
