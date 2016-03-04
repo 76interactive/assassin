@@ -11,7 +11,7 @@ Assassin is an opinionated BEM SASS bundle to kickstart the creation of advanced
 Lungo includes the following components:
 
 * [Bourbon](http://bourbon.io)
-* [Neat](http://neat.io)
+* [Neat](http://neat.bourbon.io)
 * [BEM Mixins](https://medium.com/@marcmintel/pushing-bem-to-the-next-level-with-sass-3-4-5239d2371321)
 * [Compass Reset](http://compass-style.org/reference/compass/reset/utilities)
 * BEM Neat Grid implementation (mixins)
