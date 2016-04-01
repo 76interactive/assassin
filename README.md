@@ -8,7 +8,7 @@ Assassin is an opinionated BEM SASS bundle to kickstart the creation of advanced
 
 ## Components
 
-Lungo includes the following components:
+Assassin includes the following components:
 
 * [Bourbon](http://bourbon.io)
 * [Neat](http://neat.bourbon.io)
